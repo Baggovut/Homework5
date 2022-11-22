@@ -27,7 +27,7 @@ public class Main {
         System.out.println("\033[4mЗадание 2\033[0m \nУкажите тип ОС (0 или 1): ");
 
         while(!scan.hasNextByte()){
-            System.out.println("Введене недопустимое значение, попробуйте снова: ");
+            System.out.println("Введено недопустимое значение, попробуйте снова: ");
             scan.nextLine();
         }
         clientOS = scan.nextByte();
@@ -60,7 +60,7 @@ public class Main {
         System.out.println("\033[4mЗадание 3\033[0m \nУкажите год: ");
 
         while(!scan.hasNextShort()){
-            System.out.println("Введене недопустимое значение, попробуйте снова: ");
+            System.out.println("Введено недопустимое значение, попробуйте снова: ");
             scan.nextLine();
         }
 
@@ -77,7 +77,7 @@ public class Main {
         System.out.println("\033[4mЗадание 4\033[0m \nУкажите расстояние для доставки: ");
 
         while(!scan.hasNextShort()){
-            System.out.println("Введене недопустимое значение, попробуйте снова: ");
+            System.out.println("Введено недопустимое значение, попробуйте снова: ");
             scan.nextLine();
         }
 
@@ -95,7 +95,7 @@ public class Main {
         System.out.println("\033[4mЗадание 5\033[0m \nУкажите номер месяца: ");
 
         while(!scan.hasNextShort()){
-            System.out.println("Введене недопустимое значение, попробуйте снова: ");
+            System.out.println("Введено недопустимое значение, попробуйте снова: ");
             scan.nextLine();
         }
 
